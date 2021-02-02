@@ -1,6 +1,6 @@
 while (true) {
-    console.log("Rotation of Degrees x axis" + input.rotation(Rotation.Pitch))
-    if (input.rotation(Rotation.Pitch) > 15) {
+    console.log("Acceleration in x-direction" + input.acceleration(Dimension.X))
+    if (input.acceleration(Dimension.X) > 2000) {
         music.pewPew.play()
         music.setVolume(200)
     }

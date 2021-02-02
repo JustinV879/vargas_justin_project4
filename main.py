@@ -1,5 +1,5 @@
 while True:
-    print("Rotation of Degrees x axis" + input.rotation(Rotation.PITCH))
-    if (input.rotation(Rotation.PITCH)) > 15:
+    print("Acceleration in x-direction" + input.acceleration(Dimension.X))
+    if (input.acceleration(Dimension.X)) > 2000:
         music.pew_pew.play()
         music.set_volume(200)
